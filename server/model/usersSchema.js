@@ -6,5 +6,5 @@ const UserSchema = new Schema({
     role: { type: String, enum: ["user", "admin"], default: "user" },
 })
 
-
+    
 export default mongoose.model("userlerdi",UserSchema)
